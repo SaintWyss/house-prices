@@ -215,7 +215,7 @@ house-prices/
    * **Nominales**: `OneHotEncoder(handle_unknown='ignore')`.
 4. **Modelos** (CV=5): `LinearRegression`, `RidgeCV`, `LassoCV`, `ElasticNetCV`; luego `RandomForestRegressor` y `GradientBoostingRegressor` (XGB/LGBM opcional).
 5. **Métrica**: **RMSE sobre log** (≈ RMSLE). Reportar también RMSE en escala original (`expm1`).
-6. **Entrega**: tabla de resultados CV + `submission_baseline.csv` (predicciones `expm1` sobre `test_clean`).
+6. **Entrega**: tabla de resultados CV + `submissions/submission_baseline.csv` (predicciones `expm1` sobre `test_clean`).
 
 ---
 
