@@ -1,0 +1,13 @@
+# Jupyter
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Datos y modelos pesados
+data/raw/
+data/interim/
+models/
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/
