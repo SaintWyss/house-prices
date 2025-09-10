@@ -8,7 +8,7 @@ Dejar un **dataset limpio, reproducible y sin fugas** para entrenar modelos de p
 
 * `data/processed/train_clean.csv` (1458 × 81, sin nulos)
 * `data/processed/test_clean.csv`  (1459 × 80, sin nulos)
-* Figuras clave en `reports/figs/`
+* Figuras clave en `reports/figures/`
 * Reportes auxiliares en `reports/`
 
 ---
@@ -23,7 +23,7 @@ house-prices/
   notebooks/
     eda-house-prices.ipynb
   reports/
-    figs/          # imágenes generadas durante el EDA
+    figures/          # imágenes generadas durante el EDA
     skew_report.csv
     skewed_feats.txt
     bitacora.md    # decisiones y hallazgos
